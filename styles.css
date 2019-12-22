@@ -1,0 +1,90 @@
+body {
+    margin: 40px 150px 40px;
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Kelly Slab', cursive;
+}
+
+h2 {
+    color: white;
+    font-family: 'Kelly Slab', cursive;
+}
+
+h3 {
+    color: white;
+    font-family: 'Kelly Slab', cursive;
+}
+
+p {
+    color: lightgray;
+    font-family: 'Kelly Slab', cursive;
+    text-align: center;
+}
+
+li {
+    color: white;
+    font-family: 'Kelly Slab', cursive;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    width: 10%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=email], select {
+    width: 20%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=tel], select {
+    width: 20%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+@font-face {
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/kellyslab/v10/-W_7XJX0Rz3cxUnJC5t6fkQLfg.woff2);
+}
+
